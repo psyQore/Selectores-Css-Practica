@@ -1,0 +1,12 @@
+/* 9.- Selector Primer Elemento Después */
+
+.admin div + p {
+    background-color: red;
+}
+
+/*
+    Forma recomendada: 
+    .admin div + p {
+        background-color: red;
+    }
+*/
