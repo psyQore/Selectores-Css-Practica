@@ -1,0 +1,20 @@
+/* 10- Selector de Atributo */
+a[href$=".com"] {
+  color: red;
+}
+input[type="tel"]{
+    border: 5px solid green
+}
+
+/*
+    Forma recomendada: 
+    a[atributo] {
+        color: red;
+    }
+    entre corchetes va el atributo que deseo buscar
+
+    ^: que conmienze con ej: a["href^="http"]
+    $: que termine con ej: a["href$=".com"]
+
+    puede comprobar cualquier atributo que tenga el html
+*/
