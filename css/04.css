@@ -1,0 +1,19 @@
+/* 4.- Selector de Clases Anidadas */
+
+.header .descripcion{
+   color: red; 
+}
+
+.descripcion {
+  color: blue;
+}
+
+/*
+    padre e hijo:
+    .header .descripcion {
+        color: red; 
+    }
+
+    maximo 3 selectores recomendados
+
+*/
