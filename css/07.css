@@ -1,0 +1,29 @@
+/* 7.- 2 Elementos */
+
+/* .texto {
+  border: 3px solid red;
+  padding: 3rem;
+}
+
+.oferta {
+  border: 3px solid blue;
+  padding: 3rem;
+} */
+
+.texto,
+.oferta {
+  border: 3px solid blue;
+  padding: 3rem;
+}
+
+/*
+  
+    Forma recomendada: 
+    .texto,
+    .oferta {
+        border: 3px solid blue;
+    }
+    las 2 clases separadas por coma
+    en vez de la primera forma
+   
+*/
