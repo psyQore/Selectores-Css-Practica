@@ -1,0 +1,16 @@
+/* 6.- Selector de Etiqueta y Clase */
+
+div.texto {
+    background-color: yellow;
+}
+
+
+
+
+/*
+  
+    Es mas especifico lo cual no lo afecta
+    si ponemos .texto
+      
+   
+*/
