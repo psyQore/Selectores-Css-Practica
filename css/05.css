@@ -1,0 +1,18 @@
+/* 5.- Selector de ID */
+
+#encabezado {
+  color: red;
+  text-transform: uppercase;
+}
+
+.texto {
+  color: blue;
+}
+
+/*
+
+    Desventaja de los IDS, no son reutilizables
+    son mas especificos, tiene mas especificidad
+    
+ 
+ */
