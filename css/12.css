@@ -1,0 +1,19 @@
+/* 12-  último Hijo de una lista */
+
+ul li:last-of-type {
+    border: 1px solid red;
+}
+  
+  /*
+    Forma recomendada: 
+    ul li:last-child {
+        border: 1px solid red;
+    }
+
+    Este seudo selecto hace lo mismo
+    ul li:last-of-type {
+        border: 1px solid red;
+    }
+
+  */
+  
