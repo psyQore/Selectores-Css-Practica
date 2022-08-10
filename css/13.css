@@ -1,0 +1,26 @@
+/* 13-  Elemento en Especifico */
+
+ul li:nth-child(4n + 1) {
+  border: 2px solid red;
+}
+
+/*
+    Forma recomendada: 
+    ul li:nth-child(2) {
+        border: 2px solid red;
+    }
+
+    formula mas rapida y eficniente:
+    ul li:nth-child(4n + 1) {
+        border: 2px solid red;
+        }
+
+    Conversion de formula:
+    4(0) + 1 = 1
+    4(1) + 1 = 5
+    4(2) + 1 = 9
+    4(3) + 1 = 13
+    4(4) + 1 = 17
+
+
+ */
