@@ -1,0 +1,20 @@
+/* 11- Primer Hijo de una lista */
+
+ul li:first-of-type {
+    border: 1px solid red;
+}
+
+  
+  /*
+    Forma recomendada: 
+    ul li:first-child {
+        border: 1px solid red;
+    }
+
+    Este selecto hace lo mismo
+    ul li:first-of-type {
+        border: 1px solid red;
+    }
+
+  */
+  
